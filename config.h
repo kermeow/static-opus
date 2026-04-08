@@ -173,7 +173,7 @@
 #define PACKAGE_NAME "opus"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "opus 1.5.2"
+#define PACKAGE_STRING "opus 1.6.1"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "opus"
@@ -182,7 +182,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.5.2"
+#define PACKAGE_VERSION "1.6.1"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1

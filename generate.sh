@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OPUS_VERSION="1.5.2"
+OPUS_VERSION="1.6.1"
 
 # OK so ideally I'd like to have something like:
 # #cgo SOURCES opus/a.c opus/b.c etc...
@@ -74,6 +74,8 @@ for dir in src celt silk celt/x86 silk/float silk/x86 celt/arm silk/arm; do
 				# ARM RTCD map files are not needed when using PRESUME mode
 				;;
 			src/opus_compare.c)
+				;;
+			src/qext_compare.c)
 				;;
 			*)
 				genfile "$file" "$COND"

@@ -1,6 +1,6 @@
 package opus
 
 /*
-#include <opus-1.5.2/celt/laplace.c>
+#include <opus-1.6.1/celt/laplace.c>
 */
 import "C"
