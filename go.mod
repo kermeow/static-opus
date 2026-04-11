@@ -1,3 +1,3 @@
-module github.com/hraban/opus
+module github.com/kermeow/static-opus
 
-go 1.21.3
+go 1.26.2
